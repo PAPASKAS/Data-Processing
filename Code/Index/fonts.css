@@ -1,0 +1,104 @@
+*{
+    text-decoration:none;
+}
+:root{
+    --base:#F2994A;
+    --t1:#8476AA;
+    --t1-rgb:132, 118, 170;
+    --t2:#99EFD0;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(../../Source/Fonts/gilroy-regular.ttf);
+}
+@font-face {
+    font-family: "Gilroy-semibold";
+    src: url(../../Source/Fonts/gilroy-semibold.ttf);
+}
+@font-face {
+    font-family: "Rubik";
+    src: url(../../Source/Fonts/Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Rubik-medium";
+    src: url(../../Source/Fonts/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: "Inter";
+    src: url(../../Source/Fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter-bold";
+    src: url(../../Source/Fonts/Inter-Bold.ttf);
+}
+
+/*header*/
+.header nav a{
+    font-family: "Gilroy";
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #B5B5B5;
+}
+.header .sign_in{
+    font-family: "Rubik-medium";
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--base);
+}
+.header .sign_up{
+    font-family: "Rubik-medium";
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/*intro*/
+.intro .heading p:first-of-type{
+    font-family: "Inter-bold";
+    font-size: 44px;
+    line-height: 50px;
+    color: var(--t2);    
+}
+.intro .heading p:last-of-type{
+    font-family: "Gilroy-SemiBold";
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--t1);    
+}
+.intro button:first-of-type{
+    font-family: "Rubik-medium";
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.intro button:last-of-type{
+    font-family: "Rubik-medium";
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--base);
+}
+.intro .video_block p{
+    font-family: "Rubik";
+    font-weight: 1;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--t1);    
+}
+.intro .video_block a{
+    font-family: "Rubik";
+    font-weight: 1;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6D6D78;
+}
