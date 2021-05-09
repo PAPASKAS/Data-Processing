@@ -39,7 +39,14 @@
             margin-top:15px;
             width:300px;
         }
+        .intro .button{
+            gap:10px;
+        }
+        .intro button{
+            width: 135px;
+        }
         .intro .video_block{
+            padding-right:20px;
             flex-direction:column;
         }
         .intro video{
@@ -47,3 +54,22 @@
         }
     }
 }
+
+
+/*your choice*/
+@media(max-width:1200px){
+    .pre_your_choice{
+        padding:0;
+    }
+    .your_choice .choice_suggestions > div{
+        justify-content: space-evenly;
+        margin-bottom:15px;
+    }
+    .your_choice .choice_suggestions > div > div{
+        margin-bottom:15px;
+    }
+    .pre_your_choice .corporation{
+        justify-content: space-evenly;
+    }
+}
+

@@ -12,7 +12,11 @@
     src: url(../../Source/Fonts/gilroy-regular.ttf);
 }
 @font-face {
-    font-family: "Gilroy-semibold";
+    font-family: "Gilroy-Bold";
+    src: url(../../Source/Fonts/gilroy-bold.ttf);
+}
+@font-face {
+    font-family: "Gilroy-Semibold";
     src: url(../../Source/Fonts/gilroy-semibold.ttf);
 }
 @font-face {
@@ -20,7 +24,7 @@
     src: url(../../Source/Fonts/Rubik-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: "Rubik-medium";
+    font-family: "Rubik-Medium";
     src: url(../../Source/Fonts/Rubik-Medium.ttf);
 }
 @font-face {
@@ -28,7 +32,7 @@
     src: url(../../Source/Fonts/Inter-Regular.ttf);
 }
 @font-face {
-    font-family: "Inter-bold";
+    font-family: "Inter-Bold";
     src: url(../../Source/Fonts/Inter-Bold.ttf);
 }
 
@@ -101,4 +105,32 @@
     font-size: 14px;
     line-height: 22px;
     color: #6D6D78;
+}
+
+
+
+/*your choice*/
+.your_choice .heading p:first-of-type{
+    font-family: "Inter-Bold";
+    font-size: 42px;
+    line-height: 50px;
+    color: var(--t2);
+}
+.your_choice .heading p:last-of-type{
+    font-family: "Gilroy-SemiBold";
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--t1);
+}
+.your_choice .suggestions p:first-of-type{/*heading suggestions*/
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--t2);    
+}
+.your_choice .suggestions p:last-of-type{
+    font-family: "Gilroy-SemiBold";
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--t1);    
 }

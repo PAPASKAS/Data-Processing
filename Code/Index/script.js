@@ -27,7 +27,21 @@ function hamburger(){
     }
 }
 
-document.onclick = function() {//закрытия гамбургера нажатием в любое место
+
+let video_condition = 0
+document.onclick = function() {
+
+    //playing video
+    if(event.target.className === "intro_video"){
+        if(video_condition % 2 === 0){
+            document.querySelector(".intro_video").play()
+        }else{
+            document.querySelector(".intro_video").pause()
+        }
+        video_condition++
+    }
+
+    //закрытия гамбургера нажатием в любое место
     if(event.target.className != "hamb_stick" && event.target.className != "sticks_hamb"){
         let coord_hamb = 210
         let hamb_open=setInterval(function(){
@@ -39,19 +53,5 @@ document.onclick = function() {//закрытия гамбургера нажа�
             }
         },1)
         setTimeout(()=> clearInterval(hamb_open),150)
-    }
-}
-
-
-//playing video
-let video_condition = 0
-document.onclick = function() {
-    if(event.target.className === "intro_video"){
-        if(video_condition % 2 === 0){
-            document.querySelector(".intro_video").play()
-        }else{
-            document.querySelector(".intro_video").pause()
-        }
-        video_condition++
     }
 }
