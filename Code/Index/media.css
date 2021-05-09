@@ -26,15 +26,15 @@
     .intro{
         width:550px;
     }
-    body{
-        background: url(../../Source/Img/intro.svg) no-repeat center 109px,
-        linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%) no-repeat;
-    }
-    @media (max-width:576px) {
-        body{
-            background: url(../../Source/Img/intro.svg) no-repeat left 109px,
-            linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%) no-repeat;
+    .background_site{
+        background: url(../../Source/Img/intro.svg) no-repeat center 109px;
+    }   
+    @media (max-width:768px){
+        .background_site{
+            background: url(../../Source/Img/intro.svg) no-repeat left 150px;
         }
+    }   
+    @media (max-width:576px) {
         .intro{
             margin-top:15px;
             width:300px;

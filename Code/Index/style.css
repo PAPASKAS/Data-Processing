@@ -4,8 +4,12 @@
     box-sizing:border-box;
 }
 body{
-    background: url(../../Source/Img/intro.svg) no-repeat right 219px,
-    linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%) no-repeat;
+    background:linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%) no-repeat;
+}
+.background_site{
+    background: url(../../Source/Img/intro.svg) no-repeat right 219px;
+    max-width:1440px;
+    margin:0 auto;
 }
 :root{
     --base:#F2994A;
@@ -48,7 +52,7 @@ span{
 .header .nav_site a:hover{
     background:rgba(var(--t1-rgb), 0.5);
     border-radius: 30px;
-    padding:1px;
+    padding:2px;
 }
 /*right side*/
 .header .right_side{
@@ -160,4 +164,29 @@ span{
 }
 .intro .video_block span:last-of-type p{/*padding between*/
     margin-bottom:6px;
+}
+
+
+
+/*your_choice*/
+.pre_your_choice{
+    padding:0 60px;
+}
+.pre_your_choice .corporation{
+    margin:100px auto 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.your_choice .heading{
+    text-align: center;
+    margin:100px 0 50px;
+}
+.your_choice .choice_suggestions > div{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:43px;
+}
+.your_choice .suggestions{
+    max-width: 300px;
+    border:1px solid red;
 }
