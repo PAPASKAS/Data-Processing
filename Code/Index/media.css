@@ -102,8 +102,86 @@
 
 
 /*startup*/
+@media(max-width:1200px){
+    @media(max-width:992px){
+        .startup{
+            margin:100px 0 400px 0;
+        }
+    }
+}
+
+
+
+/*invest*/
 @media(max-width:992px){
-    .startup{
-        margin:100px 0 400px 0;
+    .invest img{
+        display:none;
+    }
+}
+
+
+
+/*help_find*/
+@media (max-width:992px) {
+    .help_find .left_side{
+        display:none;
+    }
+    .help_find .right_side{
+        margin:auto;
+    }
+}
+
+
+
+
+/*mail*/
+@media (max-width:576px) {
+    .mail{
+        height: 400px;
+        padding:10px;
+        margin:100px auto 0 auto;
+    }
+    .mail button{
+        transform:translate(-7px, -1px);
+    }
+    @media (max-width:479px) {
+        .mail{
+            height: 450px;
+        }
+        .mail button{
+            margin-top:15px;
+            border-radius: 5px;
+        }
+        .mail input{
+            width: 250px;
+        }
+    }
+}
+
+
+
+
+/*footer*/
+@media(max-width:768px){
+    .footer .pages{
+        text-align: center;
+        justify-content: space-evenly;
+        margin:94px 0 70px 0;
+    }
+    .footer .pages > span{
+        margin-bottom:50px;
+    }
+    @media (max-width:576px) {
+        .footer_block{
+            margin-top:70px;
+        }
+        .footer .heading span{
+            text-align:center;
+            width: 200px;
+            margin:0 auto;
+        }
+        .footer .heading span:last-of-type{
+            justify-content: space-between;
+        }
     }
 }

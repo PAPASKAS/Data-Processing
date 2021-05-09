@@ -246,3 +246,117 @@ word_save_money{
 invest_word{
     color:var(--base);
 }
+
+
+
+
+
+
+/*help find*/
+.help_find .right_side > div > p:first-of-type{
+    font-family: "Inter-bold";
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.325px;
+    color: var(--t2);
+}
+.help_find .right_side > div > p:last-of-type{
+    font-family: "Gilroy-semibold";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--t1);    
+}
+.help_find .right_side span p:first-of-type{
+    font-family: "Inter-bold";
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: var(--t2);    
+}
+.help_find .right_side span p:last-of-type{
+    font-family: "Gilroy-semibold";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--t1);    
+}
+
+
+
+
+/*mail*/
+.mail p:first-of-type{
+    font-family: "Rubik-medium";
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--base);    
+}
+.mail p:nth-of-type(2){
+    font-family: "Rubik";
+    font-size: 16px;
+    line-height: 22px;
+    color: #95A1BB;    
+}
+.mail p:last-of-type{
+    font-family: "Gilroy-semibold";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--t1);    
+}
+.mail input{
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.mail button{
+    font-family: "Rubik-medium";
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+
+
+
+
+
+/*footer*/
+.footer .heading{
+    font-family: "Inter-bold";
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.325px;
+    color: var(--base);    
+}
+.footer .pages p{
+    font-family: "Inter-bold";
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;    
+}
+.footer .pages a{
+    font-family: "Inter";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;    
+}
+.footer .bottom_footer{
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #8D8D8D;    
+}
+.footer .bottom_footer a{
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #8D8D8D;
+}
