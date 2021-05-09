@@ -134,3 +134,115 @@
     line-height: 22px;
     color: var(--t1);    
 }
+
+
+
+
+/*traffic*/
+.traffic button{
+    font-family: "Rubik-medium";
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.traffic p:first-of-type{
+    font-family: "Inter-Bold";
+    font-size: 42px;
+    line-height: 50px;
+    color: var(--t2);    
+}
+traffic_word{
+    color:var(--base);
+}
+.traffic p:last-of-type{
+    font-family: "Gilroy-SemiBold";
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: var(--t1);
+}
+
+
+
+/*save_money*/
+word_save_money{
+    color: var(--base);
+}
+.save_money .heading p:first-of-type{
+    font-family: "Inter-bold";
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.33px;
+    color: var(--t2);    
+}
+.save_money .heading p:last-of-type{
+    font-family: "Gilroy-SemiBold";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--t1);    
+}
+.save_money .bottom_block p:first-of-type{
+    font-family: "Inter-bold";
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.33px;
+    color: var(--t2);
+}
+.save_money .bottom_block p:last-of-type{
+    font-family: "Gilroy-SemiBold";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--t1);
+}
+
+
+
+/*startup*/
+.startup p{
+    font-family: "Inter-Bold";
+    font-size: 42px;
+    line-height: 50px;
+    color: var(--t2);    
+}
+.startup button{
+    font-family: "Rubik-Medium";
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+
+
+
+/*invest*/
+.invest p:first-of-type{
+    font-family: "Inter-Bold";
+    font-size: 42px;
+    line-height: 50px;
+    color: var(--t2);    
+}
+.invest p:last-of-type{
+    font-family: "Gilroy-Semibold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: var(--t1);    
+}
+.invest button{
+    font-family: "Rubik-medium";
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+invest_word{
+    color:var(--base);
+}

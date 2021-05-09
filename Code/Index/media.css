@@ -73,3 +73,37 @@
     }
 }
 
+
+
+/*traffic*/
+@media(max-width:1200px){
+    .traffic > span:last-child{
+        display:none;
+    }
+    .traffic {
+        padding:0px;
+        margin:90px 0;
+    }
+}
+
+
+
+/*save_money*/
+@media(max-width:992px){
+    .save_money .bottom_block{
+        justify-content: space-around;
+    }
+    .save_money .bottom_block span:not(:last-of-type){
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+/*startup*/
+@media(max-width:992px){
+    .startup{
+        margin:100px 0 400px 0;
+    }
+}

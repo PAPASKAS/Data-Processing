@@ -44,6 +44,7 @@ document.onclick = function() {
     //закрытия гамбургера нажатием в любое место
     if(event.target.className != "hamb_stick" && event.target.className != "sticks_hamb"){
         let coord_hamb = 210
+        document.querySelector(".hamb_stick img").src = "../../Source/Img/menu.svg"
         let hamb_open=setInterval(function(){
             if(coord_hamb > 0){
                 coord_hamb-=10

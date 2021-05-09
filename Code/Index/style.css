@@ -8,7 +8,8 @@ body{
 }
 .background_site{
     background: url(../../Source/Img/intro.svg) no-repeat right 139px,
-                url(../../Source/Img/background\ your\ choice.svg) no-repeat center 620px;
+                url(../../Source/Img/background\ your\ choice.svg) no-repeat center 620px/contain,
+                url(../../Source/Img/startup.svg) no-repeat center 2600px;
     max-width:1460px;
     padding:0 10px; 
     margin:0 auto;
@@ -26,6 +27,9 @@ body{
 }
 span{
     display:inline-block;
+}
+button{
+    cursor:pointer;
 }
 
 
@@ -69,13 +73,13 @@ span{
     align-items: center;/*align text in button*/
 }
 .header .sign_in{
-    border: 1px solid #F2994A;
+    border: 1px solid var(--base);
     box-sizing: border-box;
     border-radius: 4px;
     transition:500ms;
 }
 .header .sign_up{
-    background: #F2994A;
+    background: var(--base);
     transition:500ms;
     border-radius: 3px;
 }
@@ -199,4 +203,108 @@ span{
 }
 .your_choice .suggestions p:first-of-type{/*heading suggestions*/
     margin-bottom:15px;
+}
+
+
+
+/*traffic*/
+.traffic{
+    display:flex;
+    padding:0 60px 0 87px;/*outer padding*/
+    margin:168px 0 120px 0;
+}
+.traffic span:first-child{/*left side*/
+    display:flex;
+}
+.traffic div{/*left side*/
+    margin:auto 0;
+}
+.traffic p:last-of-type{/*left side*/
+    margin:32px 0 43px 0;
+}
+.traffic button{/*left side*/
+    width: 155px;
+    height: 48px;
+    background: var(--base);
+    transition:500ms;
+    border-radius: 3px;
+    border:none;
+    outline: none;
+}
+.traffic button:hover{/*left side*/
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+}
+
+
+
+/*save_money*/
+.save_money p{
+    text-align: center;
+}
+.save_money .heading p:first-of-type{
+    max-width:864px;
+    margin:0 auto 32px auto;
+}
+.save_money .heading p:last-of-type{
+    max-width:414px;
+    margin:0 auto 48px auto;
+}
+.save_money .bottom_block{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.save_money .bottom_block span{
+    width:290px;
+}
+.save_money .bottom_block span p:first-of-type{
+    margin:0 0 16px 0;
+}
+
+
+
+/*startup*/
+.startup{
+    margin:168px 0 400px 0;
+    text-align:center;
+}
+.startup p{
+    margin:0 auto 46px auto;
+    max-width:770px;
+}
+.startup button{
+    width: 164px;
+    height: 54px;
+    background: var(--base);
+    transition:500ms;
+    border:none;
+    outline:none;
+    border-radius: 3px;
+}
+.startup button:hover{
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+}
+
+
+/*invest*/
+.invest{
+    display:flex;
+}
+.invest span:first-of-type{
+    margin:auto 0;
+}
+.invest p:last-of-type{
+    margin:32px 0 46px 0;
+}
+.invest button{
+    width: 154px;
+    height: 54px;
+    border:none;
+    outline:none;
+    background: var(--base);
+    border-radius: 3px;
+    transition:500ms;
+}
+.invest button:hover{
+    box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
 }
